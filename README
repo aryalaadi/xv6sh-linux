@@ -1,0 +1,8 @@
+xv6sh-linux port
+
+This program is a fork of the xv6-public's shell modified to work on linux. 
+xv6sh is a very tiny, minimal, non bloated shell which is good enough as long
+as youre not doing complicated shell scripting. I would not link this to /bin/sh
+but i can see myself using this shell on a minimal environment. 
+
+to build run: gcc xv6sh.c 
